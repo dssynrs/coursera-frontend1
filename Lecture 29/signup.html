@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sign up</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <nav id="header-nav" class="navbar navbar-light bg-light navbar-default shadow p-3">
+      <div class="navbar-header">
+        <a href="home.html" class="pull-left visible-md visible-lg">
+          <img id="logoimg" src="image/logo_manganbos.png">
+        </a>
+      </div>
+    </nav>
+  </header>
+
+<body>
+
+	<div class="card card-signup justify-content-center">
+		<div class="card signup-header">sign up</div>
+		<div class="card signup-body">
+			<form>
+				<div class="form-signup">
+					<label for="nama-signup">nama merchant</label>
+					<input type="text" id="signup-nama" placeholder="masukkan nama">
+				</div>
+				<div class="form-signup">
+					<label for="email-signup">email</label>
+					<input type="email" id="signup-email" placeholder="masukkan email">
+				</div>
+				<div class="form-signup">
+					<label for="password-signup">password</label>
+					<input type="password" id="signup-password" placeholder="masukkan password">
+				</div>
+				<div class="form-signup">
+					<label for="lokasi-signup">lokasi</label>
+					<select id="lokasi">
+						<option>Kota Yogyakarta</option>
+						<option>Sleman</option>
+						<option>Bantul</option>
+						<option>Gunung Kidul</option>	
+						<option>Kulon Progo</option>
+					</select>
+				</div>
+				<div class="form-signup">
+					<div id="btn upload-logo" style="font-size: 14px">
+						<span>upload logo merchant</span>
+						<input type="file" name="logo-merchant">
+				</div>
+				<button type="submit" class="btn form-signup">sign up</button>
+			</form>
+		</div>
+	</div>
+	
+	<script src="js/jquery-3.5.1.min.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/script.js"></script>
+</body>
+</html>

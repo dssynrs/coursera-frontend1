@@ -1,0 +1,142 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color: white;
+	font-family: 'Poppins', sans-serif;;
+}
+
+#header-nav {
+	background-color: white;
+	border-radius: 0;
+	border: 0;
+	height: 50px;
+}
+
+.navbar-header {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#logoimg {
+	position: relative;
+	width: 150px;
+	height: auto;
+}
+
+#loginButton {
+	float: right;
+	width: 50px;
+	height: auto;
+}
+
+#profilButton {
+	float: right;
+	width: 150px;
+	height: auto;
+}
+
+.container-fluid {
+	margin: -240px 0 0 0;
+	text-align: center;
+}
+
+.welcomeMsg {
+	font-weight: bold;
+	font-size: 48px;
+	position: absolute;
+	top: 27%;
+	left: 10%;
+}
+
+.welcomeMsglagi {
+	font-size: 24px;
+	font-weight: 500;
+	position: absolute;
+	width: 432px;
+	height: 72px;
+	text-align: left;
+	top: 90%;
+}
+
+.sebelahButton {
+	display: inline;
+	text-align: center;
+	color: #929292;
+	font-size: 27px;
+	padding: 9px;
+	font-weight: 500;
+	width: 543px;
+	height: 58px;
+	border: 3px solid black;
+	margin-left: 340px;
+	border-radius: 25px 0 0 25px;
+	background-color: white;
+}
+
+.card.login-header {
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 30px; 
+}
+
+.btn.login-lagi {
+	padding-top: 8px;
+	position: relative;
+	color: white;
+	font-weight: bold;
+	font-size: 27px;
+	width: 315px;
+	height: 62px;
+	border-radius: 0 25px 25px 0;
+	background-color: black;
+	margin-top: -9px;
+}
+
+.card.card-login {
+	text-align: center;
+	border: 3px solid black;
+	border-radius: 25px;
+	width: 550px;
+	height: 384px;
+	margin-top: 11%;
+	margin-left: 30%;
+}
+
+.btn.form-login {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+
+#signup-dulu {
+	color: #787878;
+}
+
+.card.card-signup {
+	text-align: center;
+	border: 3px solid black;
+	border-radius: 25px;
+	width: 550px;
+	height: 500px;
+	margin-left: 30%;
+	margin-top: 5%;
+}
+
+.btn.form-signup {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+
+.card.signup-header {
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.btn.form-input {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}

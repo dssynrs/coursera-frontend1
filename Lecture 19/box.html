@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Box Model</title>
+<style>
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		background-color: gray;
+	}
+
+	#box {
+		text-align: center;
+		padding: 5px;
+		background-color: blue;
+		border: 5px solid black;
+		margin: 40px;
+		width: 300px;
+		height: 390px;
+		overflow: auto;
+
+	}
+	#content {
+	  	background-color: #90EE90; /*green*/
+	}
+
+	h1 {
+		margin-bottom: 30px;
+	}
+
+</style>
+</head>
+<body>
+
+	<h1>Box Model</h1>
+
+	<div id="box">
+  		<div id="content">Okay, one more small topic before we finish this lecture. We spoke before about box sizing, so specifying the size of the box. And we talked about box sizing being the border, box meaning that if I specified some width or some height, it will include, always include from the edge of the border to the other edge of the border. And we'll also show that as we change the width of our element, since the content inside the box shifted, the height of the box shifted as well. So let's go ahead and add some more content into our box, and then we'll us the Emmet plugin, E-M-M-E-T, go ahead and look it up. We'll save it. We'll refresh it, and now we see it's much bigger than before. Let's lower this a little bit, so you can see. So because I added extra content, you can see that the height of our element is now 162. </div>
+	</div>
+	<!-- <div>
+		But what happens if I constrain our element's height as well? Something's going to have to give, right, because there's no space left. So let's adjust a couple of things. First of all, let's go ahead and make this back to ten, so the padding will be just ten all around. And the border is kind of looking unseemly, so we'll make it like five, five pixels. And go ahead in the margin, those margins doesn't matter now. So let's refresh, and now it's a little bit better.
+	</div> -->
+
+</body>
+</html>
